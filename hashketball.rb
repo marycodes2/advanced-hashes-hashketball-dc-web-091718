@@ -224,6 +224,6 @@ end
                 #puts player_name
 
 
-puts big_shoe_rebounds
+puts find_biggest_shoe
   
   
