@@ -221,6 +221,7 @@ def big_shoe_rebounds
   shoe_sizes = find_biggest_shoe
   biggest_shoe_size = shoe_sizes[0]
   puts biggest_shoe_size
+  puts biggest_shoe_size.class
 end 
 
 
