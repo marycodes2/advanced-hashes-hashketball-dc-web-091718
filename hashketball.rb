@@ -210,19 +210,14 @@ def find_biggest_shoe
             end
         end
       end
-      
     end
-    
   end 
   shoe_sizes = shoe_sizes.sort
   shoe_sizes = shoe_sizes.reverse
   return shoe_sizes
 end 
 
-
-             # shoe_sizes = shoe_sizes.sort
-            #  shoe_sizes = shoe_sizes.reverse
-             # puts shoe_sizes
+def 
               #if stat_value == shoe_sizes[0]
                 #puts shoe_sizes[0]
                 #puts player_name
