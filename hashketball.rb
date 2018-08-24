@@ -224,6 +224,6 @@ def big_shoe_rebounds
 end 
 
 
-puts find_biggest_shoe
+puts big_shoe_rebounds
   
   
