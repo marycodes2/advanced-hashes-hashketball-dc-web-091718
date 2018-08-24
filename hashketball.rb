@@ -206,8 +206,6 @@ def find_biggest_shoe
             player_data.collect do |stat, stat_value|
               if stat == :shoe
                 shoe_sizes << stat_value
-              end
-              end 
             end
         end
       end
