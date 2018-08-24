@@ -211,8 +211,8 @@ def big_shoe_rebounds
               shoe_sizes = shoe_sizes.reverse
               puts shoe_sizes[0]
               if stat_value == shoe_sizes[0]
-                puts shoe_sizes[0]
-                puts player_name
+                #puts shoe_sizes[0]
+                #puts player_name
               end 
             end
         end
