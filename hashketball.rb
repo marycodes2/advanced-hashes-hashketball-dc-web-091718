@@ -228,6 +228,7 @@ def big_shoe_rebounds
               if stat == :shoe && stat_value == biggest_shoe_size
                 puts stat
                 puts stat_value
+                puts player_name
               end
             end
         end
