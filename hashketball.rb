@@ -219,9 +219,7 @@ end
 
 def big_shoe_rebounds
   shoe_sizes = find_biggest_shoe
-  if stat_value == shoe_sizes[0]
-                #puts shoe_sizes[0]
-                #puts player_name
+  shoe_sizes[0] = biggest_shoe_size
 
 
 puts find_biggest_shoe
