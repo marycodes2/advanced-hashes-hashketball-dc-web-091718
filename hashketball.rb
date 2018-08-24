@@ -212,8 +212,9 @@ def find_biggest_shoe
       end
       
     end
-    return shoe_sizes
+    
   end 
+  return shoe_sizes
 end 
 
 
