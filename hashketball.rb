@@ -211,6 +211,7 @@ def big_shoe_rebounds
               shoe_sizes = shoe_sizes.reverse
               if stat_valye == shoe_sizes[0]
                 puts player_name
+              end 
             end
         end
       end
