@@ -215,7 +215,7 @@ def find_biggest_shoe
     
   end 
   shoe_sizes = shoe_sizes.sort
-  shoe_sizes = shoe_sizes.revers
+  shoe_sizes = shoe_sizes.reverse
   return shoe_sizes
 end 
 
