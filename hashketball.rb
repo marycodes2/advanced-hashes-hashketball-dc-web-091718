@@ -208,6 +208,7 @@ def find_biggest_shoe
                 shoe_sizes << stat_value
               end
             end
+          return shoe_sizes
         end
       end
     end
