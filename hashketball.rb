@@ -210,12 +210,12 @@ def big_shoe_rebounds
               shoe_sizes = shoe_sizes.sort
               shoe_sizes = shoe_sizes.reverse
               if stat_valye == shoe_sizes[0]
+                puts 
               
             end
         end
       end
     end
-    puts shoe_sizes
   end
 end 
 
