@@ -197,7 +197,7 @@ def player_stats(player)
   return new_hash
 end 
 
-def big_shoe_rebounds
+def find_biggest_shoe
   shoe_sizes = []
   game_hash.each do |location, team_data|
     team_data.each do |attribute, data|
@@ -207,19 +207,23 @@ def big_shoe_rebounds
               if stat == :shoe
                 shoe_sizes << stat_value
               end
+              end 
+            end
+        end
+      end
+    end
+    shoe_sizes
+  end
+end 
+
+
               shoe_sizes = shoe_sizes.sort
               shoe_sizes = shoe_sizes.reverse
               puts shoe_sizes
               if stat_value == shoe_sizes[0]
                 #puts shoe_sizes[0]
                 #puts player_name
-              end 
-            end
-        end
-      end
-    end
-  end
-end 
+
 
 big_shoe_rebounds
   
