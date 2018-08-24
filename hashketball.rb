@@ -206,8 +206,8 @@ def big_shoe_rebounds
             player_data.collect do |stat, stat_value|
               if stat == :shoe
                 shoe_sizes << stat_value
-              puts shoe_sizes
               end 
+              puts shoe_sizes
             end
         end
       end
