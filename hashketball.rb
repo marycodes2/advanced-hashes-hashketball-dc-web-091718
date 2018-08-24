@@ -209,6 +209,8 @@ def big_shoe_rebounds
               end
               shoe_sizes = shoe_sizes.sort
               shoe_sizes = shoe_sizes.reverse
+              if shoe_sizes[0]
+              
             end
         end
       end
