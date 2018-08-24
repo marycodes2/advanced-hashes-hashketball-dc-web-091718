@@ -209,6 +209,7 @@ def big_shoe_rebounds
                 shoe_sizes << stat_value
               end 
             end
+            puts shoe_sizes
         end
       end
     end
