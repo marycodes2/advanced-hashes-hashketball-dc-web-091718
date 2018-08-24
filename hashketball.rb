@@ -213,7 +213,6 @@ def big_shoe_rebounds
       end
     end
   end
-  puts shoe_sizes
 end 
 
 big_shoe_rebounds
