@@ -217,8 +217,9 @@ def find_biggest_shoe
   return shoe_sizes
 end 
 
-def 
-              #if stat_value == shoe_sizes[0]
+def big_shoe_rebounds
+  shoe_sizes = find_biggest_shoe
+  if stat_value == shoe_sizes[0]
                 #puts shoe_sizes[0]
                 #puts player_name
 
