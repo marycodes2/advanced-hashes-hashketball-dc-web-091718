@@ -207,7 +207,8 @@ def big_shoe_rebounds
               if stat == :shoe
                 shoe_sizes << stat_value
               end
-              shoe_sizes = shoe_sizes.sort.reverse
+              shoe_sizes = shoe_sizes.sort
+              shoe_sizes = shoe_sizes.reverse
             end
         end
       end
